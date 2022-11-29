@@ -37,7 +37,7 @@ const LeftArea:React.FC = () => {
             </button>
             <form onSubmit={handleSubmit} className={container}>
                 <textarea value={text} className={textAreaStyle} id="msgaarea" onChange={handleChange} cols={30} rows={10}></textarea><br/>
-                <button type="submit" className={BtnStyles}>
+                <button type="submit" className={BtnStyles} disabled={text.length === 0 && true}>
                     Submit Message
                 </button>
             </form>

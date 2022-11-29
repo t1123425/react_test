@@ -53,6 +53,9 @@ export const BtnStyles = style({
     ':hover':{
         opacity:0.5
     },
+    ':disabled':{
+        cursor:'not-allowed'
+    },
     padding:'5px',
     cursor:'pointer'
 })
