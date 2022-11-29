@@ -53,3 +53,17 @@ export const mLeft = styleVariants({
         marginLeft:space.medium
     }]
 })
+
+export const mTop = styleVariants({
+    small:[{
+        marginTop:space.small
+    }],
+    medium:[{
+        marginTop:space.medium
+    }]
+})
+
+export const btnGroup = style({
+    display:'flex',
+    flexDirection:'column'
+})
